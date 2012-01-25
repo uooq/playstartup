@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>CoffeeScript & RequireJS</title>
+        <script src="../ext/require/require.js" type="text/javascript" data-main="../scripts/irequirecoffee/main.js" ></script>
+    </head>
+    <body>
+        This page makes use of code written in coffeescript and uses a library called requirejs for enabling module
+        loading and coffeescript compilation. Big disclaimer: this is not an example of good use of require or coffeescript,
+        just a way to show how client-side coffeescript compilation can happen.
+
+        <p />
+
+        The only script included in this page is require.js but it also passes along a parameter for irequirecoffee/main.js
+        to a script which handles subsequent script dependencies. <p/>
+
+        So here it is: click the button to execute some coffeescript:
+
+        <input type="button" value="Click Me, Click Me!" id="theButton" />
+    </body>
+</html>
